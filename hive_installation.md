@@ -81,4 +81,4 @@
 32. schematool -dbType mysql -initSchema
 33. hive
 
-Now the hive shell is opened. Type whatever hive command in the shell. And also you can create database with any other name rather than metastore. The datbase you are creating in the 31.1 step, the same name you have to provide in the value section of the property javax.jdo.option.ConnectionURL in hive-site.xml. Value should be like this -> jdbc:mysql://localhost/your_database_name?createDatabaseIfNotExist=true
+Now the hive shell is opened. Type whatever hive command in the shell. And also you can create database with any other name rather than metastore. The datbase you are creating in the 31.i step, the same name you have to provide in the value section of the property javax.jdo.option.ConnectionURL in hive-site.xml. Value should be like this -> jdbc:mysql://localhost/your_database_name?createDatabaseIfNotExist=true
